@@ -1,15 +1,15 @@
 import argparse
 
-OUTPUT = "baby, don't hurt me\ndon't hurt me\nno more."
+OUTPUT = "bb dont hurt me dont hurt me no more "
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        prog="what-is-love",
+        prog="wut-is-luv",
         description="Prints the only correct answer to the only correct question."
     )
     
     parser.add_argument("is_", choices=["is"], help=argparse.SUPPRESS, metavar="is")
-    parser.add_argument("love", choices=["love"], help=argparse.SUPPRESS)
+    parser.add_argument("luv", choices=["luv"], help=argparse.SUPPRESS)
 
     parser.parse_args()
     print(OUTPUT)
