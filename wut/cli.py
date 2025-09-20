@@ -4,8 +4,7 @@ OUTPUT = "bb dont hurt me dont hurt me no more "
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        prog="wut-is-luv",
-        description="Prints the only correct answer to the only correct question."
+        prog="wut-is-luv"
     )
     
     parser.add_argument("is_", choices=["is"], help=argparse.SUPPRESS, metavar="is")
